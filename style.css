@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    width: 640px;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 32px 40px 0 40px;
+    padding: 33px 0;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+}
+
+.apple-logo {
+    width: 26px;
+    height: 32px;
+}
+
+.watch {
+    height: 24px;
+    width: 118px;
+}
+
+nav {
+    background-color: #444444;
+    margin: 0 40px;
+    padding: 16px 0;
+    border-radius: 0px 0px 8px 8px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 0 10px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a.links-nav {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+main {
+    background-color: white;
+    margin: 32px 40px 34px 40px;
+    border-radius: 8px;
+    height: 496px;
+    width: 560px;
+}
+
+.apple-watch {
+    position: absolute;
+    margin-left: 330px;
+    top: 214px;
+}
+
+h1.title-page {
+    padding: 48px 0 16px 72px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0C1014;
+}
+
+p.paragraph-main {
+    padding: 0 0 24px 72px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515759;
+}
+
+a.visit {
+    margin-left: 72px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1890FF;
+    text-decoration: none;
+}
+
+button.button-main-product {
+    margin: 131px 0 4px 0;
+    width: 128px;
+    height: 40px;
+    border-radius: 8px;
+    transition: .2s;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #1890FF;
+    color: white;
+}
+
+button.button-main-product:hover {
+    background: #0d6ec9;
+}
+
+.buy {
+    margin-left: 72px;
+}
+
+section.other-products {
+    width: 556px;
+    height: 809px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 0 42px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+}
+
+.header-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 70px 0 70px;
+}
+
+section.other-products h2 {
+    color: #0C1014;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+section.other-products .link-see-all {
+    color: #1890FF;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.first-row {
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+
+.products-apple {
+    width: auto;
+    height: auto;
+}
+
+.products-apple .name-product {
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0C1014;
+    margin: 32px 0 4px 0;
+}
+
+.products-apple .value-product {
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #515759;
+}
+
+.products-apple .button-buy-product {
+    width: 56px;
+    height: 24px;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #1890FF;
+    transition: .2s;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #1890FF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.products-apple .button-buy-product:hover {
+    background: #0d6ec9;
+}
+
+.seccond-row {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 70px;
+}
+
+.div-footer {
+    width: 556px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto 24px auto;
+    box-shadow: rgb(0 0 0 / 1%) 0px 4px 30px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+.follow-us {
+    width: auto;
+    margin: 32px 0px 0px 84px;
+}
+
+.contact-us {
+    margin: 32px 130px 0px 0px;
+    width: auto;
+}
+
+.follow-us .paragraph-footer,
+.contact-us .paragraph-footer {
+    padding: 0;
+    margin-bottom: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+}
+
+.follow-us .title-footer,
+.contact-us .title-footer {
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0C1014;
+}
+
+.contact-us .number-tel {
+    margin: 16px 0 8px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+}
+
+.contact-us .email-support {
+    font-family: Inter;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #1890FF;
+}
+
+.follow-us .image-social-networks {
+    cursor: pointer;
+    margin-right: 22px;
+}
