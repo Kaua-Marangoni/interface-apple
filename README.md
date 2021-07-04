@@ -27,8 +27,8 @@ The project is still under development and future updates will focus on the foll
       </a>
     </td>
     <td align="center">
-      <a href="#">
-            <img src="https://avatars.githubusercontent.com/u/81838598?v=4" width="100px;" alt="Foto do Maycom Costa"/><br>
+      <a href="https://github.com/MaycomCosta">
+            <img src="https://avatars.githubusercontent.com/u/81838598?v=4" width="100px;" alt="Foto do Maycom Costa no GitHub"/><br>
         <sub>
             <b>Maycom Costa</b>
         </sub>
